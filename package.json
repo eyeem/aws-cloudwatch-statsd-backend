@@ -1,27 +1,22 @@
 {
-  "author": "Martin Camitz<martin.camitz@simpletask.se>",
+  "name": "aws-cloudwatch-statsd-backend-multiregion",
+  "version": "1.0.0",
   "description": "A backend for StatsD to emit stats to Amazon's AWS CloudWatch.",
-  "name": "aws-cloudwatch-statsd-backend",
-  "version": "1.2.0",
   "main": "lib/aws-cloudwatch-statsd-backend.js",
   "dependencies": {
+    "statsd": "^0.8.0",
+    "travis": "^0.1.1",
     "aws-sdk": "~2.0.15"
   },
   "devDependencies": {},
-  "optionalDependencies": {},
-  "engines": {
-    "node": "*"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/camitz/aws-cloudwatch-statsd-backend.git"
+    "url": "git+https://github.com/eyeem/aws-cloudwatch-statsd-backend.git"
   },
-  "keywords": [
-    "statsd",
-    "cloudwatch",
-    "aws",
-    "amazon",
-    "cloudwatchappender"
-  ], 
-  "license": {"type": "MIT", "url": "https://github.com/camitz/aws-cloudwatch-statsd-backend/blob/master/LICENSE.md"}
+  "author": "Joé Schaul <joe.schaul@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eyeem/aws-cloudwatch-statsd-backend/issues"
+  },
+  "homepage": "https://github.com/eyeem/aws-cloudwatch-statsd-backend#readme"
 }
